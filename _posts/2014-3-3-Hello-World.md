@@ -1,7 +1,11 @@
 ---
 layout: post
-title: You're up and running!
+title: We are the world!
 ---
+
+> We are the world
+	we are the children
+	we are the ones who make a brighter day
 
 Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
 
