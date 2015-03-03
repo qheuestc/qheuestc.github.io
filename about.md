@@ -6,7 +6,7 @@ permalink: /about/
 
 Some information about you!
 
-![_config.yml]({{ site.baseurl }}/images/sillykeng.jpg)
+![_config.yml]({{ site.baseurl }}/images/avatar.jpg)
 
 ### More Information
 
