@@ -80,3 +80,21 @@ int print_t(AvlTree tree)
 }
 
 ```
+
+其中int _print_t(AvlTree tree, int is_left, int offset, int depth, char s[DEPTH*2][255])是实际进行打印的代码段，而int print_t(AvlTree tree)是打印树形结构的驱动程序，直接调用int print_t(AvlTree tree)传入二叉树的指针就可以进行树形结构的打印。
+
+我定义的树的结构体如下：
+```c
+typedef struct NODE
+{
+	ElemType data;
+	struct NODE *lchild, *rchild;
+	int height;
+} AvlNode, *AvlTree, *Positon;
+```
+
+这里我使用的是AvlTree是由于这是我在进行avltree实验使用的代码，在avltree构建的过程中不断地打印树的结构，就可以看出在其构建过程中所做的调整，这样就能加深我们对avltree构建的算法的理解。
+
+***
+下面是效果图：
+![_config.yml]({{ site.baseurl }}/images/2014-12-02-tree/tree_diagram.png)
