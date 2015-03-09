@@ -97,4 +97,4 @@ typedef struct NODE
 
 ***
 下面是效果图：
-![_config.yml]({{ site.baseurl }}/images/2014_12_02_tree/tree_diagram.png)
+![_config.yml]({{ site.baseurl }}/images/2014-12-02-tree/tree_diagram.png)
