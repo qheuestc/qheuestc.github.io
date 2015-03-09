@@ -7,8 +7,9 @@ title: 在终端打印树的结构
 
 我在学习的过程中在stackoverflow上面找到了一段大神写的程序，使用这段程序就能很好的把树的拓扑结构给打印出来，这样就能在学习树有关的知识的时候有更直观的认识。
 
-```c
+我已经找不到原帖的地址了，现将代码贴在下面：
 
+```c
 // Codes for printing the tree in Diagram
 int _print_t(AvlTree tree, int is_left, int offset, int depth, char s[DEPTH*2][255])
 {
@@ -84,6 +85,7 @@ int print_t(AvlTree tree)
 其中int _print_t(AvlTree tree, int is_left, int offset, int depth, char s[DEPTH*2][255])是实际进行打印的代码段，而int print_t(AvlTree tree)是打印树形结构的驱动程序，直接调用int print_t(AvlTree tree)传入二叉树的指针就可以进行树形结构的打印。
 
 我定义的树的结构体如下：
+
 ```c
 typedef struct NODE
 {
